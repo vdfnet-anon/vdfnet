@@ -1,0 +1,36 @@
+# Datasets
+data/
+SceneFlow*/
+
+# Model weights and training records
+checkpoint/
+checkpoints/
+*.pth
+release_weights/
+
+# Build artifacts
+nets/deform_conv/build/
+nets/deform_conv/dist/
+nets/deform_conv/*.egg-info
+nets/deform_conv/*.so
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+events.out.tfevents.*
+
+# Archives
+*.tar.gz
+*.tar
+*.tar.bz2
+*.zip
+
+# Transfer files (keep .sh scripts under transfer/)
+transfer/*.py
+transfer/*.tar.gz
+
+# System files
+.DS_Store

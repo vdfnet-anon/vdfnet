@@ -1,0 +1,2 @@
+# Placeholder - run generate_middlebury_eth3d.py to populate
+# Format: left_img right_img [disp_gt]
