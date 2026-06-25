@@ -31,6 +31,7 @@
 - [Datasets](#datasets)
 - [Pretrained models](#pretrained-models)
 - [Evaluation](#evaluation)
+- [Results](#results)
 - [Citation](#citation) · [License](#license)
 
 ---
@@ -183,6 +184,20 @@ python evaluate_stereo.py \
 ```
 
 > The baseline checkpoint loads into `igev_stereo_original`; the render variants load into `igev_stereo`. The reproduction scripts select the correct class automatically.
+
+---
+
+## Results
+
+### Zero-shot cross-domain generalization
+
+All models trained on SceneFlow only, evaluated without any fine-tuning. VDFNet (`disparityrender`) produces sharper boundaries and fewer large errors than RAFT-Stereo and IGEV-Stereo (soft-argmin) across ETH3D, KITTI 2015, and Middlebury H.
+
+<img src="assets/exp2.png" width="100%" alt="Zero-shot generalization comparison"/>
+
+### KITTI 2015 benchmark (fine-tuned)
+
+<img src="assets/kittiVDF.png" width="100%" alt="KITTI 2015 visual comparison"/>
 
 ---
 
