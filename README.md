@@ -19,8 +19,10 @@
 
 > 📄 Paper: *VDFNet: Volumetric Density Field for Stereo Matching* — under review, IEEE TNNLS.
 > Pretrained weights + one-command scripts reproduce the paper's Table I & II directly.
->
-> **Note:** This repository provides the evaluation code and pretrained weights for reviewer reproduction. The complete codebase will be open-sourced upon acceptance.
+
+> [!IMPORTANT]
+> This repository provides the evaluation code and pretrained weights for reviewer reproduction.
+> **The complete codebase will be open-sourced upon acceptance.**
 
 ## Contents
 
