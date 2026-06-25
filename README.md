@@ -1,6 +1,6 @@
 <div align="center">
 
-# VDFNet: Volumetric Density Field for Stereo Matching
+# VDFNet: A NeRF-Inspired Volume Density Field Rendering Paradigm for Stereo Matching
 
 **A NeRF-inspired, plug-and-play replacement for soft-argmin that improves cross-domain generalization at zero parameter cost.**
 
@@ -17,7 +17,7 @@
 
 **VDFNet** reinterprets the disparity estimation stage as **volumetric density field rendering**. Instead of soft-argmin regression, it models the disparity distribution as a 1D density field along the disparity axis and renders disparity via NeRF-style alpha compositing — a physically interpretable, multi-modal estimator. The `disparityrender` operator is a **drop-in replacement for the soft-argmin head**, validated on four independent backbones (IGEV, GwcNet, PSMNet, AANet): it keeps in-domain accuracy comparable while significantly improving **zero-shot cross-domain generalization**.
 
-> 📄 Paper: *VDFNet: Volumetric Density Field for Stereo Matching* — under review, IEEE TNNLS.
+> 📄 Paper: *VDFNet: A NeRF-Inspired Volume Density Field Rendering Paradigm for Stereo Matching* — under review, IEEE TNNLS.
 > Pretrained weights + one-command scripts reproduce the paper's Table I & II directly.
 
 > [!IMPORTANT]
@@ -190,7 +190,7 @@ python evaluate_stereo.py \
 
 ```bibtex
 @article{vdfnet,
-  title   = {VDFNet: Volumetric Density Field for Stereo Matching},
+  title   = {VDFNet: A NeRF-Inspired Volume Density Field Rendering Paradigm for Stereo Matching},
   author  = {VDFNet Authors},
   journal = {IEEE Transactions on Neural Networks and Learning Systems},
   note    = {Under review},
